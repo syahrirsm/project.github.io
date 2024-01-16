@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        main {
+            padding: 1em;
+        }
+
+        .project {
+            margin-bottom: 20px;
+        }
+
+        .project h2 {
+            color: #333;
+        }
+
+        .project p {
+            color: #555;
+        }
+
+        .github-link {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portofolio Saya</h1>
+    </header>
+
+    <main>
+        <div class="project">
+            <h2>Project 1</h2>
+            <p>Deskripsi singkat tentang Project 1.</p>
+            <div class="github-link">
+                <a href="https://github.com/username/project1" target="_blank">GitHub Repository</a>
+            </div>
+        </div>
+
+        <div class="project">
+            <h2>Project 2</h2>
+            <p>Deskripsi singkat tentang Project 2.</p>
+            <div class="github-link">
+                <a href="https://github.com/username/project2" target="_blank">GitHub Repository</a>
+            </div>
+        </div>
+
+        <!-- Tambahkan proyek-proyek lain sesuai kebutuhan -->
+
+    </main>
+</body>
+</html>
